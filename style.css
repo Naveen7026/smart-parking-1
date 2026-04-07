@@ -1,0 +1,34 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #eef2f3;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+#parking-lot {
+    display: grid;
+    grid-template-columns: repeat(5, 70px);
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.slot {
+    height: 70px;
+    width: 70px;
+    background: green;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.occupied {
+    background: red;
+}
